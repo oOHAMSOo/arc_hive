@@ -1,0 +1,168 @@
+body {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+.gugi-font {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.emp{
+    color: #a6f012 !important;
+}
+
+#about_nmix{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(images/6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#product{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(images/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#fnq{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(images/4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#reviews{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(images/3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* 네비게이션 영역 */
+.nav-link:active, .nav-link:hover{
+    color: #e54712 !important;
+}
+
+.goto{
+    color: #e54712;
+}
+
+.goto:active,.goto:hover{
+    color: #8f3111;
+}
+
+.index-button:active, .index-button:hover{
+    background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+    color: #e54712 !important;
+}
+
+
+/* 헤더 영역 */
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(images/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.aboutHeader{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(images/6.jpg) !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* 서비스 섹션 */
+.card-hover:hover {
+    background-color: #ffc10726;
+}
+
+.ably{
+    background-color:#eb3fa3;
+    color:white;
+}
+
+.naver{
+    background-color:#34cc2a;
+    color:black;
+}
+
+.footer-link:hover,.footer-link:active{
+    color: #e54712 !important;
+}
+
+.naver-link{
+    color: #5dc11b !important;
+    border-color: #5dc11b;
+}
+
+.naver-link:hover,.naver-link:active{
+    color: #499516 !important;
+    border-color: #499516;
+}
+
+.ably-link{
+    color: #eb3f6d !important;
+    border-color: #eb3f6d;
+}
+
+.ably-link:hover,.ably-link:active{
+    color: #9a2846 !important;
+    border-color:#9a2846;
+}
+
+.insta-link{
+    color: #a33feb !important;
+    border-color: #a33feb;
+}
+
+.insta-link:hover,.insta-link:active{
+    color: #652394 !important;
+    border-color:#652394;
+}
+
+/* SNS 영역 */
+#sns-links {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/sns-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* 뉴스 섹션 */
+#news {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/news-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width:991px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(8px);
+    }
+}
+
+.accordion{
+    --bs-accordion-btn-bg:#ffffff;
+    --bs-accordion-btn-focus-box-shadow: None;
+    --bs-accordion-active-bg: #ffffff;
+    --bs-accordion-border-color: #ffffff;
+    --bs-accordion-active-color: --bs-dark;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  }
+
+.navbar{
+    background-color: rgba( 255, 255, 255, 0.8 ) !important;
+}
